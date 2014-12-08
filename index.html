@@ -24,6 +24,14 @@
 
 </head>
 <body>
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.0";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
 <div class="container-fluid">
 <nav class="navbar navbar-default" role="navigation">
 	
@@ -201,7 +209,8 @@
 	<!-- Footer -->
 	<hr>
 	<div class="text-center">
-		<p><small>2015 &copy; PxDBase.com &nbsp;  <a href="mailto:support@pxdbase.com">Contact Us</a></small></p>		
+		<p><small>2015 &copy; PxDBase.com &nbsp;  <a href="mailto:support@pxdbase.com">Contact Us</a> </small></p>
+		<div class="fb-share-button" data-href="http://www.pxdbase.com/" data-layout="button"></div>
 	</div>	
 </div>
 </body>
